@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM registry.cubetiqs.com/node:alpine
 
 WORKDIR /app
 
