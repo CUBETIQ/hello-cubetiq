@@ -1,0 +1,19 @@
+{
+  "name": "hello-cubetiq",
+  "version": "1.0.0",
+  "description": "Just Hello from CUBETIQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.cubetiqs.com/CUBETIQ/hello-cubetiq.git"
+  },
+  "keywords": [
+    "hello",
+    "cubetiq"
+  ],
+  "author": "Sambo Chea",
+  "license": "ISC"
+}
