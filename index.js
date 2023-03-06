@@ -6,7 +6,9 @@ var app = express()
 const PORT = 8080
 
 app.get('/', function (req, res) {
-  res.send('Hello from CUBETIQ!')
+  res.json({
+    msg: 'Hello from CUBETIQ!',
+  })
 })
 
 app.get('/info', function (req, res) {
