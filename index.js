@@ -8,6 +8,7 @@ const PORT = 8080
 app.get('/', function (req, res) {
   res.json({
     msg: 'Hello from CUBETIQ!',
+    timestamp: new Date().getTime(),
   })
 })
 
